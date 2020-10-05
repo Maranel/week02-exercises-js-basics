@@ -1,53 +1,53 @@
 
-//conditions
+// //conditions
 
-var myNumber1 = 5;
-var myNumber2 = 7;
+// var myNumber1 = 5;
+// var myNumber2 = 7;
 
-if (myNumber1 > myNumber2) {
-  console.log("Yaay, I'm smaller!");
-} else {
-  console.log("Oh, no I'm not smaller")
-}
+// if (myNumber1 > myNumber2) {
+//   console.log("Yaay, I'm smaller!");
+// } else {
+//   console.log("Oh, no I'm not smaller")
+// }
 
-if (myNumber1 === myNumber2) {
-  console.log("they are equal");
-} else if (myNumber1 < myNumber2) {
-  console.log("mynumber is smaller");
-} else if (myNumber1 - 5 < myNumber2) {
-  console.log("mynimber - 5 is smaller");
-} else {
-  console.log("mynumber is not smaller");
-}
+// if (myNumber1 === myNumber2) {
+//   console.log("they are equal");
+// } else if (myNumber1 < myNumber2) {
+//   console.log("mynumber is smaller");
+// } else if (myNumber1 - 5 < myNumber2) {
+//   console.log("mynimber - 5 is smaller");
+// } else {
+//   console.log("mynumber is not smaller");
+// }
 
-//loops
-for (var i = 0; i < 100; i++) {
-  if (isEven(i)) {
-    console.log(i + 1 + ". I won't cheat on the exam!");
-  }
-}
+// //loops
+// for (var i = 0; i < 100; i++) {
+//   if (isEven(i)) {
+//     console.log(i + 1 + ". I won't cheat on the exam!");
+//   }
+// }
 
-var myFriends = ["Bill", "Joe", "Francis"];
+// var myFriends = ["Bill", "Joe", "Francis"];
 
-for (var i = 0; i < myFriends.length; ++i) {
-  //console.log("Hello, " + myFriends[i]);
-  greet(myFriends[i]);
-}
+// for (var i = 0; i < myFriends.length; ++i) {
+//   //console.log("Hello, " + myFriends[i]);
+//   greet(myFriends[i]);
+// }
 
-myFriends.forEach(function (element) {
-  //console.log("Hello, " + element);
-  greet(element);
-});
+// myFriends.forEach(function (element) {
+//   //console.log("Hello, " + element);
+//   greet(element);
+// });
 
-//functions
+// //functions
 
 
-function isEven(number) {
-  var even = number % 2;
-  return even;
-}
+// function isEven(number) {
+//   var even = number % 2;
+//   return even;
+// }
 
-//jQuery
+// //jQuery
 
 //$("#plant-a-tree").hide();
 //$("#make-friends").fadeOut(500).delay(1000).fadeIn(500);
@@ -84,12 +84,12 @@ for (var i = 0; i < cards.length; ++i) {
 //   $(this).css({ "width": "150px", "font-size": "100%" })
 // });
 
-// This is comment 
-// Exericses No 2
-let variable = 5;
-let myBoolean = true;
-let myOtherBoolean = false;
-// let result = true && true;
+// // This is comment 
+// // Exericses No 2
+// let variable = 5;
+// let myBoolean = true;
+// let myOtherBoolean = false;
+// // let result = true && true;
 // let result2 = true && false;
 // let result = true || true;
 // let result2 = true || false;
@@ -110,24 +110,24 @@ let myOtherBoolean = false;
 // let result2 = 10 / 0;
 // let reminder = 5 % 3;
 
-let age = 25;
-let ww2 = 6;
-let tesla = 7662046;
-let secondsofday = 86400;
-let hungarians = 0.12;
-let bigger = 1428614795;
-let particpants = 3;
-let myString = 'This is a string';
-let greetWorld = 'Hello ' + 'World!';
-let meno = 'Dave';
-let greeting = 'Hello ' + meno + '!';
-let charCount = 'Hello'.length;
-let trueOrFalse = 5 === 5;
-trueOrFalse = 100 < 50;
-trueOrFalse = 'hello' !== 'world';
-trueOrFalse = 1 >= 2;
-trueOrFalse = 'blue'.length === 'green'.length;
-trueOrFalse = 3 < 4 && (5 > 6 || 7 < 8);
+// let age = 25;
+// let ww2 = 6;
+// let tesla = 7662046;
+// let secondsofday = 86400;
+// let hungarians = 0.12;
+// let bigger = 1428614795;
+// let particpants = 3;
+// let myString = 'This is a string';
+// let greetWorld = 'Hello ' + 'World!';
+// let meno = 'Dave';
+// let greeting = 'Hello ' + meno + '!';
+// let charCount = 'Hello'.length;
+// let trueOrFalse = 5 === 5;
+// trueOrFalse = 100 < 50;
+// trueOrFalse = 'hello' !== 'world';
+// trueOrFalse = 1 >= 2;
+// trueOrFalse = 'blue'.length === 'green'.length;
+// trueOrFalse = 3 < 4 && (5 > 6 || 7 < 8);
 let myArray = ['Claire', 'Mark', 'Susan'];
 let myOtherArray = [3, 12, true, 'Hello'];
 console.log(myArray[0]);
@@ -235,3 +235,5 @@ let myNumbers = [10, 20, 30, 50, 12];
 myNumbers.forEach(element => console.log(element));
 // const array1 = ['a', 'b', 'c'];
 // array1.forEach(element => console.log(element));
+
+//Ex 5 Into to jQuery
