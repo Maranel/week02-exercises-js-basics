@@ -40,9 +40,7 @@ myFriends.forEach(function (element) {
 });
 
 //functions
-function greet(aname) {
-  console.log("Hello, " + aname);
-}
+
 
 function isEven(number) {
   var even = number % 2;
@@ -174,3 +172,66 @@ let colobj = {
 colobj.hasManyColors = 3 > colobj.colors.length;
 console.log(colobj);
 console.log("Hello my name is Matus");
+
+
+let a = 7;
+if (a < 5) {
+  console.log(a / 2);
+} else {
+  console.log(a * 2);
+}
+
+let add = (a, b) => {
+  return a + b;  // the return keyword will give you back the result
+};
+
+console.log(add(1, 2))
+
+// Ex No 4 js-building-blocks.md
+let bookCount = 10;
+for (let i = 0; i < bookCount; i++) {
+  console.log(i);
+}
+
+for (i = bookCount; i > 0; i--) {
+  console.log(i);
+}
+let twenty = 20;
+for (i = 0; i < twenty ; i++) {
+  if (i % 2 ) {
+  }
+  else{
+    console.log(i);
+  }
+}
+
+
+// printNumbersTill(15); // should print 1, 1, 2, ...., 15
+ let printNumb = (n) =>{
+  for (let int = 0 ; int < n ; int++ )
+  console.log(int+1);
+}
+console.log(printNumb(20));
+console.log(printNumb(15));
+
+let myname = 'Matus';
+
+function greet(aname) {
+  console.log("Hello, " + aname);
+}
+console.log(greet(myname));
+
+
+let ivals =  [0, 3, 6, 7, 9];
+let printValues = (val) => {
+  for (let iint = 0; iint < val.length; iint++) {
+    console.log(val[iint]);
+  }
+};
+
+console.log(printValues(ivals));
+
+let myNumbers = [10, 20, 30, 50, 12];
+myNumbers.forEach(element => console.log(element));
+// const array1 = ['a', 'b', 'c'];
+// array1.forEach(element => console.log(element));
