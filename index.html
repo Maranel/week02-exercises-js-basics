@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - My First App - Slovak Coding Camp - Advance HTML/CSS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="container">
+    <h1>Awesome Landing Page</h1>
+    <div class="card-container">
+      <div class="card" id="plant-a-tree">
+        <img src="https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/tree.png"
+          alt="A hand holding a tree">
+        <p>Plant a tree</p>
+      </div>
+      <div class="card" id="make-friends">
+        <img src="https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/deal.png"
+          alt="Shaking hands">
+        <p>Make friends</p>
+      </div>
+      <div class="card" id="money-bag">
+        <img src="https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/money.png"
+          alt="A hand holding a bag of money">
+        <p>Profit</p>
+      </div>
+    </div>
+  </div>
+  <div id="newsletter-open">
+    Newsletter
+  </div>
+  <form action="http://www.example.com" id="newsletter">
+    <div class="sign-up-form">
+      <h2>Newsletter</h2>
+      <p>Sign up to our newsletter to recive awesome news about fresh air.</p>
+      <input type="text">
+      <button type="submit">Subscribe</button>
+      <p>
+        <input type="checkbox" id="terms">
+        <label for="terms">I accept the <a href="http://www.example.com">terms and conditions</a></label>
+      </p>
+      <div class="close-button" id="close-button">X</div>
+    </div>
+  </form>
+  </div>
+  <div id="question-mark">?</div>
+  <!-- partial -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
