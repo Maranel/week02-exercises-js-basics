@@ -173,3 +173,4 @@ let colobj = {
 };
 colobj.hasManyColors = 3 > colobj.colors.length;
 console.log(colobj);
+console.log("Hello my name is Matus");
